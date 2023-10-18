@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/bootstrap.css">
+    <title>My form validation</title>
+</head>
+<body>
+<div class="row">
+<div class="col" ></div>
+<div class="col">
+    <form id="regForm" class="row g-3 needs-validation">
+        <div>
+        <h2 class="text-center">Register user</h2>
+        </div>
+
+
+        <div>
+
+        <div class="form-check has-validation">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" id="firstName" class="form-control">
+            <p class="invalid-feedback">Error msg</p>
+        </div>
+        <div class="form-check">
+             <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" id="lastName" class="form-control">
+            <p class="invalid-feedback">Error msg</p>
+        </div>
+        <div class="form-check">
+             <label for="email" class="form-label">e-mail</label>
+            <input type="email" id="email" class="form-control">
+            <p class="invalid-feedback">Error msg</p>
+
+        </div>
+        <div class="form-check">
+             <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" class="form-control">
+            <p class="invalid-feedback">Error msg</p>
+
+        </div>
+        <div class="form-check">
+             <label for="password2" class="form-label">Repeat password</label>
+            <input type="password" id="password2" class="form-control">
+            <p class="invalid-feedback">Error msg</p>
+
+        </div>
+        <div class="form-check form-switch">
+
+            <input type="checkbox" id="tag" class="form-check-input">
+            <label for="tag" class="form-label">Accept terms and conditions</label>
+            <p class="invalid-feedback">Error msg</p>
+
+        </div>
+
+        <button class="btn btn-primary" type="submit">Register</button>
+      </div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="col" ></div>
+    </div>
+<script src='script.js'></script>
+</body>
+</html>
